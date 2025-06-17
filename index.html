@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <title>Eve's Residences Search</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <div class="max-w-5xl mx-auto p-6">
+    <img src="logo.png" alt=""class="mx-auto mb-6" style="max-width: 100px; height: auto;" />
+    <p class="text-center text-xl">Eve's Residences</p>
+    <h1 class="text-2xl font-bold text-center text-gray-800 mb-6">
+    Property Details
+    </h1>
+
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search (e.g., ECO, monthly, 5,399)"
+      class="w-full p-3 mb-6 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-lime-500"
+    />
+
+    <div id="results" class="overflow-x-auto cursor-pointer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
