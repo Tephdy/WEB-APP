@@ -4,11 +4,12 @@ const properties = {
     type: "Studio Unit",
     location: "69 Matahimik Street Riverside 2 Subdivision Brgy. Sto. Domingo Cainta, Rizal.",
     contracts: [
-      "5,399 PER MONTH--1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
-      "5,899 PER MONTH - 6 MONTHS CONTRACT -1 MONTH ADVANCE 2 MONTHS DEPOSIT",
-      "6,298 PER MONTH - 3 MONTHS CONTRACT - (3000) UTILITY DEPOSIT",
-      "6,888 PER MONTH - MONTHLY CONTRACT - 1 MONTH ADVANCE",
-    ]
+      "5,399 PER MONTH 1 YEAR CONTRACT.<br> 1 MONTH ADVANCE 2 MONTHS DEPOSIT.",
+      "5,899 PER MONTH 6 MONTHS CONTRACT.<br> 1 MONTH ADVANCE 2 MONTHS DEPOSIT.",
+      "6,298 PER MONTH 3 MONTHS CONTRACT (3000) UTILITY DEPOSIT.",
+      "6,888 PER MONTH MONTHL CONTRACT 1 MONTH ADVANCE.",
+    ],
+    landmark:"Boundary of Pasig and Cainta. Walking distance to Ortigas Extension & Robinson's (Big R) Cainta Junction. Near the business district of Ortigas, Makati, Eastwood and Cubao.",
   },
   "ADI 168": {
     name: "ADI 168",
@@ -17,7 +18,8 @@ const properties = {
     contracts: [
       "Trial - 3,999 - 1 MONTH - 1k utility DEPOSIT",
       "3,999 PER MONTH - 6 MONTH CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
-    ]
+    ],
+    landmark: "Walking distance to LRT Marikina-Pasig Station. Near the business district of Cubao, Ortigas, Makati, and Eastwood.",
   },
   "THE DORM": {
     name: "THE DORM",
@@ -28,7 +30,8 @@ const properties = {
       "2,999 - MONTHLY CONTRACT",
       "2,799 - PER MONTH - 6 MONTHS CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT",
       "2,499 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
-    ]
+    ],
+    landmark: "One ride to Ortigas, Mandaluyong, Makati, Eastwood, Libis, and BGC. Walking distance to SM East Ortigas, Super 8 Grocery, McDonald's, and major banks. Near: The Medical City, Mission Hospital, UA\&P, St. Paul College of Pasig, Ateneo School of Medicine",
   },
   "DREAM": {
     name: "DREAM",
@@ -48,7 +51,9 @@ const properties = {
       "8,900 PER MONTH - MONTHLY CONTRACT - 3K UTILITY DEPOSIT",
       "Studio unit",
       "700 - DAILY"
-    ]
+    ],
+    landmark: "Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina.",
+
   },
   "PLEASANT": {
     name: "PLEASANT",
@@ -61,9 +66,9 @@ const properties = {
       "700 - DAILY",
       "UNIT 1F, 2L, 3R, AND 4X - 5099 PER MONTH - 1 YR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "5,599 PER MONTH - 6 MONTHS CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
-      "6,099 - MONTHLY CONTRACT - 3K UTILITY DEPOSIT",
-      "700 - DAILY"
-    ]
+      "6,099 - MONTHLY CONTRACT - 3K UTILITY DEPOSIT"
+    ], 
+    landmark:"Near LRT Line 2 Marikina-Pasig Station 1 ride to Cubao, Makati, Ortigas, Eastwood, and Manila.Walking distance to Marikina Public Market, Amang Rodriguez Hospital, Blue Wave, Marikina Sports Center, and more."
   },
   "HOMEY": {
     name: "HOMEY",
@@ -75,7 +80,8 @@ const properties = {
       "3,4,5 - 5500 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "#2 - 6,000 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "6,7,8 - 6,000 PER MONTH – 1 YEAR CONTRACT W/ AC PROVISION - 1 MONTH ADVANCE 2 MONTHS DEPOSIT"
-    ]
+    ],
+    landmark: "Just minutes away from Cainta Municipal Hall, SM Savemore, Puregold, churches, wet & dry markets. Accessible routes to Ortigas Extension (via Midtown Village–De Castro/Countryside Exit), C6, BGC, Taguig, and Pasig. Accessible routes to Ortigas Extension (via Midtown Village–De Castro/Countryside Exit), C6, BGC, Taguig, and Pasig.",
   },
   "KALAYAAN 888": {
     name: "KALAYAAN 888",
@@ -83,7 +89,8 @@ const properties = {
     location: "Karangalan Gate 1 Kalayaan St. San Isidro Cainta, Rizal",
     contracts: [
       "4,999 PER MONTH - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
-    ]
+    ],
+    landmark: "Walking distance to McDonald's, and Jollibee Karangalan Gate 1 Cainta, Rizal. Near the business district of Eastwood, Ortigas, Makati, BGC, and Quezon City.",
   },
    "PENTHAUZ": {
     name: "PENTHAUZ",
@@ -91,7 +98,9 @@ const properties = {
     location: "80 Monaco St. Pasig City",
     contracts: [
       "7,999 to 8,500/month"
-    ]
+    ],
+    landmark: "Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina",
+
   },
   "GREEN": {
     name: "GREEN",
@@ -100,35 +109,66 @@ const properties = {
     contracts: [
       "5,799 PER MONTH - UPPER UNIT - 1 YR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "5,399 PER MONTH - LOWER UNIT - 1 YR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT"
-    ]
+    ],
+    landmark: "Walking distance to Ortigas Extension, Robinson's (Big R) Cainta Junction, and the business district of Ortigas, Makati, Eastwood, and Cubao.",
   }
 };
 
-const input = document.getElementById("searchInput");
+// Input Elements
+const locationInput = document.getElementById("locationInput");
+const typeInput = document.getElementById("typeInput");
+const landmarkInput = document.getElementById("landmarkInput");
 const results = document.getElementById("results");
+
 let debounceTimer;
 
-input.addEventListener("input", () => {
+function triggerSearch() {
   clearTimeout(debounceTimer);
   debounceTimer = setTimeout(() => {
-    search(input.value.trim().toLowerCase());
-  }, 500);
+    search(
+      locationInput.value.trim().toLowerCase(),
+      typeInput.value.trim().toLowerCase(),
+      landmarkInput.value.trim().toLowerCase()
+    );
+  }, 300);
+}
+
+[locationInput, typeInput, landmarkInput].forEach(input => {
+  input.addEventListener("input", triggerSearch);
+  input.addEventListener("keyup", e => {
+    if (e.key === "Enter") triggerSearch();
+  });
 });
 
-function search(keyword) {
-  results.innerHTML = "";
-  if (keyword === "") return;
+function highlightKeywords(text, keyword) {
+  if (!text || !keyword) return text;
+  const regex = new RegExp(`(${keyword})`, "gi");
+  return text.replace(regex, "<strong class='text-lime-600'>$1</strong>");
+}
 
+function search(locationKeyword, typeKeyword, landmarkKeyword) {
+  // Do not display anything if all inputs are empty
+  if (!locationKeyword && !typeKeyword && !landmarkKeyword) {
+    results.innerHTML = "";
+    return;
+  }
+
+  let resultTables = "";
   let matchFound = false;
 
-  for (const [name, data] of Object.entries(properties)) {
-    const nameMatch = data.name.toLowerCase().includes(keyword);
-    const typeMatch = data.type.toLowerCase().includes(keyword);
-    const locationMatch = data.location.toLowerCase().includes(keyword);
-    const contentMatch = data.contracts.some(contract => contract.toLowerCase().includes(keyword));
+  for (const [_, data] of Object.entries(properties)) {
+    const matchesLocation = locationKeyword === "" ||
+      data.location.toLowerCase().includes(locationKeyword);
 
-    if (nameMatch || typeMatch || locationMatch || contentMatch) {
+    const matchesType = typeKeyword === "" ||
+      data.type.toLowerCase().includes(typeKeyword);
+
+    const matchesLandmark = landmarkKeyword === "" ||
+      (data.landmark || "").toLowerCase().includes(landmarkKeyword);
+
+    if (matchesLocation && matchesType && matchesLandmark) {
       matchFound = true;
+
       const table = document.createElement("table");
       table.className =
         "min-w-full bg-white text-sm text-left text-gray-600 shadow rounded overflow-hidden mb-8";
@@ -137,44 +177,33 @@ function search(keyword) {
         <thead class="bg-lime-500 text-white">
           <tr>
             <th class="px-4 py-3 text-center">Property</th>
+            <th class="px-4 py-3 text-center">Type</th>
+            <th class="px-4 py-3 text-center">Location</th>
             <th class="px-4 py-3 text-center">Details</th>
+            <th class="px-4 py-3 text-center">Landmark</th>
           </tr>
         </thead>
       `;
 
-      let filteredContracts = [];
-
-      if (nameMatch || locationMatch) {
-        filteredContracts = data.contracts;
-      } else if (typeMatch && !contentMatch) {
-        filteredContracts = data.contracts;
-      } else if (!typeMatch && contentMatch) {
-        filteredContracts = data.contracts.filter(contract => contract.toLowerCase().includes(keyword));
-      } else if (typeMatch && contentMatch) {
-        filteredContracts = data.contracts;
-      }
-
-      const tbody = filteredContracts
-        .map(
-          detail => `
+      const tbody = data.contracts
+        .map(contract => `
           <tr class="border-b hover:bg-gray-50">
-            <td class="px-4 py-2">
-              ${data.name}
-              <div class='text-xs text-gray-400'>${data.type}</div>
-              <div class='text-xs text-gray-400'>${data.location}</div>
-            </td>
-            <td class="px-4 py-2">${detail}</td>
-          </tr>`
-        )
+            <td class="px-4 py-2 font-bold">${highlightKeywords(data.name, locationKeyword)}</td>
+            <td class="px-4 py-2">${highlightKeywords(data.type, typeKeyword)}</td>
+            <td class="px-4 py-2">${highlightKeywords(data.location, locationKeyword)}</td>
+            <td class="px-4 py-2">${contract}</td>
+            <td class="px-4 py-2">${highlightKeywords(data.landmark || "", landmarkKeyword)}</td>
+          </tr>
+        `)
         .join("");
 
       table.innerHTML = thead + `<tbody>${tbody}</tbody>`;
-      results.appendChild(table);
+      resultTables += table.outerHTML;
     }
   }
 
-  if (!matchFound) {
-    results.innerHTML =
-      '<div class="text-center text-gray-500 mt-4">No matching properties found.</div>';
-  }
+  results.innerHTML = matchFound
+    ? resultTables
+    : '<div class="text-center text-gray-500 mt-4">No matching properties found.</div>';
 }
+
