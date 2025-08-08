@@ -22,14 +22,14 @@ const properties = {
     landmark: "Walking distance to LRT Marikina-Pasig Station. Near the business district of Cubao, Ortigas, Makati, and Eastwood.",
   },
   "THE DORM": {
-    name: "THE DORM",
+    name: "Bed and Bath",
     type: "Bedspace unit",
     location: "74 Monaco St, Ciudad Grande 2, Pasig City, 1611 Metro Manila",
     contracts: [
-      "TRIAL - 1,999 + 500 admin fee",
-      "2,999 - MONTHLY CONTRACT",
-      "2,799 - PER MONTH - 6 MONTHS CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT",
-      "2,499 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
+      "299 - Daily Minimum of 3 days stay.",
+      "TRIAL - 1,999",
+      "2,500 - Extended 1 month trial",
+      "3,100 - MONTHLY CONTRACT",
     ],
     landmark: "One ride to Ortigas, Mandaluyong, Makati, Eastwood, Libis, and BGC. Walking distance to SM East Ortigas, Super 8 Grocery, McDonald's, and major banks. Near: The Medical City, Mission Hospital, UA\&P, St. Paul College of Pasig, Ateneo School of Medicine",
   },
