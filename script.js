@@ -21,7 +21,7 @@ const properties = {
     ],
     landmark: "Walking distance to LRT Marikina-Pasig Station. Near the business district of Cubao, Ortigas, Makati, and Eastwood.",
   },
-  "THE DORM": {
+  "BED AND BATH": {
     name: "Bed and Bath",
     type: "Bedspace unit",
     location: "74 Monaco St, Ciudad Grande 2, Pasig City, 1611 Metro Manila",
