@@ -27,7 +27,7 @@ const properties = {
     location: "74 Monaco St, Ciudad Grande 2, Pasig City, 1611 Metro Manila",
     contracts: [
       "299 - Daily Minimum of 3 days stay.",
-      "TRIAL - 1,999",
+      "1 MONTH TRIAL - 1,999",
       "2,500 - Extended 1 month trial",
       "3,100 - MONTHLY CONTRACT",
     ],
