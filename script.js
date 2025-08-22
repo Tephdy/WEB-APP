@@ -14,7 +14,7 @@ const properties = {
   "ADI 168": {
     name: "ADI 168",
     type: "Semi-furnished unit",
-    location: "Imelda Ave., Karangalan Gate 2, Cainta, Rizal ",
+    location: "Lt. 6 Blk. 15 Kayumangi St. Karangalan Village, San Isidro Cainta, Rizal",
     contracts: [
       "Trial - 3,999 - 1 MONTH - 1k utility DEPOSIT",
       "3,999 PER MONTH - 6 MONTH CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
