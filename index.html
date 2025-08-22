@@ -11,17 +11,37 @@
 
   <div class="max-w-5xl mx-auto p-6">
 
+    <!-- Header -->
+<!--     <header class="text-center mb-6">
+      <img src="logo.png" alt="Eve's Residences Logo" class="mx-auto mb-4 w-24 sm:w-28 md:w-32 lg:w-36 h-auto" />
+      <p class="text-xl sm:text-2xl font-medium text-gray-700">Eve's Residences</p>
+      <h1 class="text-2xl sm:text-3xl font-bold text-gray-800">Property Details</h1>
+    </header> -->
+
     <!-- Main Image -->
     <img src="img/FORR_WEB_1.jpg" alt="Property Image" class="w-full h-auto mb-6" />
 
-    <!-- Single Search Input -->
-    <div class="mb-4">
+    <!-- Inputs -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
       <input
         type="text"
-        id="searchInput"
-        placeholder="Search by property, location, type, contract, or landmark..."
+        id="locationInput"
+        placeholder="Location (e.g., Cainta)"
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-lime-500"
       />
+      <input
+        type="text"
+        id="typeInput"
+        placeholder="Unit Type (e.g., Studio, Bedspace)"
+        class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-lime-500"
+      />
+      <input
+          type="text"
+          id="landmarkInput"
+          placeholder="Search by landmark"
+          class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-lime-500"
+        />
+
     </div>
 
     <!-- Results -->
