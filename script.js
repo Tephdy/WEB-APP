@@ -28,7 +28,7 @@ const properties = {
     contracts: [
       "299 - Daily Minimum of 3 days stay.",
       "1 MONTH TRIAL -(Lower bed: 2,200, Upper bed: 1,999)",
-      "Extended 1 month trial (Lower bed: 2,500, Lower bed: 2,300)",
+      "Extended 1 month trial (Lower bed: 2,500, Upper bed: 2,300)",
       "3,100 - MONTHLY CONTRACT",
     ],
     landmark: "One ride to Ortigas, Mandaluyong, Makati, Eastwood, Libis, and BGC. Walking distance to SM East Ortigas, Super 8 Grocery, McDonald's, and major banks. Near: The Medical City, Mission Hospital, UA\&P, St. Paul College of Pasig, Ateneo School of Medicine",
