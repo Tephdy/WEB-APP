@@ -88,7 +88,7 @@ const properties = {
     type: "Studio unit",
     location: "Karangalan Gate 1 Kalayaan St. San Isidro Cainta, Rizal",
     contracts: [
-      "4,999 PER MONTH - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
+      "4,999 PER MONTH - 1 MONTH ADVANCE 2 MONTH DEPOSITS"
     ],
     landmark: "Walking distance to McDonald's, and Jollibee Karangalan Gate 1 Cainta, Rizal. Near the business district of Eastwood, Ortigas, Makati, BGC, and Quezon City.",
   },
