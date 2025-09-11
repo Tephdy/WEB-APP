@@ -3,43 +3,44 @@ const properties = {
     name: "ECO (888)",
     type: "Studio Unit",
     location: "69 Matahimik Street Riverside 2 Subdivision Brgy. Sto. Domingo Cainta, Rizal.",
+    map: "https://maps.app.goo.gl/ZtoYCfw6VS1Q2Tiy7",
     contracts: [
       "5,399 PER MONTH 1 YEAR CONTRACT.<br> 1 MONTH ADVANCE 2 MONTHS DEPOSIT.",
       "5,899 PER MONTH 6 MONTHS CONTRACT.<br> 1 MONTH ADVANCE 2 MONTHS DEPOSIT.",
       "6,298 PER MONTH 3 MONTHS CONTRACT (3000) UTILITY DEPOSIT.",
-      "6,888 PER MONTH MONTHL CONTRACT 1 MONTH ADVANCE.",
+      "6,888 PER MONTH MONTHLY CONTRACT 1 MONTH ADVANCE.",
     ],
-    landmark:`Boundary of Pasig and Cainta. Walking distance to Ortigas Extension & Robinson's (Big R) Cainta Junction. Near the business district of Ortigas, Makati, Eastwood and Cubao.<br>
-    <b>Google Map</b>: https://maps.app.goo.gl/ZtoYCfw6VS1Q2Tiy7`,
+    landmark: "Boundary of Pasig and Cainta. Walking distance to Ortigas Extension & Robinson's (Big R) Cainta Junction. Near Ortigas, Makati, Eastwood and Cubao.",
   },
   "ADI 168": {
     name: "ADI 168",
     type: "Semi-furnished unit",
     location: "Lt. 6 Blk. 15 Kayumangi St. Karangalan Village, San Isidro Cainta, Rizal",
+    map: "https://maps.app.goo.gl/EQkAxPWgDAhyknM79",
     contracts: [
       "Trial - 3,999 - 1 MONTH - 1k utility DEPOSIT",
       "3,999 PER MONTH - 6 MONTH CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
     ],
-    landmark: `Walking distance to LRT Marikina-Pasig Station. Near the business district of Cubao, Ortigas, Makati, and Eastwood.<br>
-    <b>Google Map</b>: https://maps.app.goo.gl/EQkAxPWgDAhyknM79`,
+    landmark: "Walking distance to LRT Marikina-Pasig Station. Near Cubao, Ortigas, Makati, and Eastwood.",
   },
   "BED AND BATH": {
     name: "Bed and Bath",
     type: "Bedspace unit",
     location: "74 Monaco St, Ciudad Grande 2, Pasig City, 1611 Metro Manila",
+    map: "https://maps.app.goo.gl/hphkFhzp1XebbM849",
     contracts: [
       "299 - Daily Minimum of 3 days stay.",
       "1 MONTH TRIAL -(Lower bed: 2,200, Upper bed: 1,999)",
       "Extended 1 month trial (Lower bed: 2,500, Upper bed: 2,300)",
       "3,100 - MONTHLY CONTRACT",
     ],
-    landmark: `One ride to Ortigas, Mandaluyong, Makati, Eastwood, Libis, and BGC. Walking distance to SM East Ortigas, Super 8 Grocery, McDonald's, and major banks. Near: The Medical City, Mission Hospital, UA&P, St. Paul College of Pasig, Ateneo School of Medicine.<br>
-    <b>Google Map</b>: https://maps.app.goo.gl/hphkFhzp1XebbM849`,
+    landmark: "One ride to Ortigas, Mandaluyong, Makati, Eastwood, Libis, and BGC. Walking distance to SM East Ortigas, Super 8 Grocery, McDonald's, and banks.",
   },
   "DREAM": {
     name: "DREAM",
     type: "Studio Unit",
     location: "80 Monaco St. Cuidad Grande 2, Ortigas Extension Pasig City.",
+    map: "https://maps.app.goo.gl/AP35c9sccbpSmaqU8",
     contracts: [
       "1 BEDROOM - 10,200 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "10,700 PER MONTH - 6 MONTHS CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
@@ -49,74 +50,53 @@ const properties = {
       "12,900 PER MONTH - 6 MONTHS CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "13,400 - MONTHLY - 3K UTILITY DEPOSIT",
       "1,000 - DAILY",
-      "STUDIO - 7900 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
+      "STUDIO - 7,900 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "8,400 PER MONTH - 6 MONTHS CONTACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "8,900 PER MONTH - MONTHLY CONTRACT - 3K UTILITY DEPOSIT",
       "Studio unit",
       "700 - DAILY"
     ],
-    landmark: `Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina.<br>
-    <b>Google Map</b>: https://maps.app.goo.gl/AP35c9sccbpSmaqU8`,
+    landmark: "Walking distance from SM East Ortigas. Near Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina.",
   },
   "PLEASANT": {
     name: "PLEASANT",
     type: "Studio unit",
-    location: "Mt. Plesant St. Brgy. Sta. Elena Marikina City",
+    location: "Mt. Pleasant St. Brgy. Sta. Elena Marikina City",
+    map: "https://maps.app.goo.gl/5D3Ke41BDTLFLHPh9",
     contracts: [
       "1A TO 1E - 4,999 PER MONTH - 1 YR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "5,400 PER MONTH - 6 MONTHS CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "5,999 - MONTHLY CONTRACT - 3K UTILITY DEPOSIT",
       "700 - DAILY",
-      "UNIT 1F, 2L, 3R, AND 4X - 5099 PER MONTH - 1 YR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
+      "UNIT 1F, 2L, 3R, AND 4X - 5,099 PER MONTH - 1 YR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "5,599 PER MONTH - 6 MONTHS CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "6,099 - MONTHLY CONTRACT - 3K UTILITY DEPOSIT"
     ], 
-    landmark:`Near LRT Line 2 Marikina-Pasig Station 1 ride to Cubao, Makati, Ortigas, Eastwood, and Manila. Walking distance to Marikina Public Market, Amang Rodriguez Hospital, Blue Wave, Marikina Sports Center, and more.<br>
-    <b>Google Map</b>: https://maps.app.goo.gl/5D3Ke41BDTLFLHPh9`,
+    landmark: "Near LRT Line 2 Marikina-Pasig Station. 1 ride to Cubao, Makati, Ortigas, Eastwood, and Manila.",
   },
   "HOMEY": {
     name: "HOMEY",
     type: "Bedroom unit",
     location: "Lot 1 Block. 3 Kanlaon St., DM 5, Cainta, Rizal",
+    map: "https://maps.app.goo.gl/VnyT7tHi4QXXRHXj9",
     contracts: [
       "1ST FLOOR FRONT STUDIO - 3,999 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "2ND FLOOR 1 BEDROOM - 6,000 PER MONTH - 1 YR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
-      "3,4,5 - 5500 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
+      "3,4,5 - 5,500 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "#2 - 6,000 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "6,7,8 - 6,000 PER MONTH – 1 YEAR CONTRACT W/ AC PROVISION - 1 MONTH ADVANCE 2 MONTHS DEPOSIT"
     ],
-    landmark: `Just minutes away from Cainta Municipal Hall, SM Savemore, Puregold, churches, wet & dry markets. Accessible routes to Ortigas Extension (via Midtown Village–De Castro/Countryside Exit), C6, BGC, Taguig, and Pasig.<br>
-    <b>Google Map</b>: https://maps.app.goo.gl/VnyT7tHi4QXXRHXj9`,
+    landmark: "Near Cainta Municipal Hall, SM Savemore, Puregold, markets. Accessible to Ortigas Ext., C6, BGC, and Pasig.",
   },
   "KALAYAAN 888": {
     name: "KALAYAAN 888",
     type: "Studio unit",
     location: "Karangalan Gate 1 Kalayaan St. San Isidro Cainta, Rizal",
+    map: "https://maps.app.goo.gl/Af2TLxWQywnufPVf7",
     contracts: [
       "4,999 PER MONTH - 1 MONTH ADVANCE 2 MONTH DEPOSITS"
     ],
-    landmark: `Walking distance to McDonald's, and Jollibee Karangalan Gate 1 Cainta, Rizal. Near the business district of Eastwood, Ortigas, Makati, BGC, and Quezon City.<br>
-    <b>Google Map</b>: https://maps.app.goo.gl/Af2TLxWQywnufPVf7`,
-  },
-  "PENTHAUZ": {
-    name: "PENTHAUZ",
-    type: "Studio unit",
-    location: "80 Monaco St. Pasig City",
-    contracts: [
-      "7,999 to 8,500/month"
-    ],
-    landmark: `Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina.<br>
-    Google Map: https://maps.app.goo.gl/AP35c9sccbpSmaqU8`,
-  },
-  "GREEN": {
-    name: "GREEN",
-    type: "Studio unit",
-    location: "Malinis S. Brgy. Sto Domingo Cainta, 1900 Rizal",
-    contracts: [
-      "5,799 PER MONTH - UPPER UNIT - 1 YR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
-      "5,399 PER MONTH - LOWER UNIT - 1 YR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT"
-    ],
-    landmark: `Walking distance to Ortigas Extension, Robinson's (Big R) Cainta Junction, and the business district of Ortigas, Makati, Eastwood, and Cubao.`,
+    landmark: "Walking distance to McDonald's and Jollibee Karangalan Gate 1. Near Eastwood, Ortigas, Makati, BGC, and QC.",
   }
 };
 
@@ -195,7 +175,10 @@ function search(locationKeyword, typeKeyword, landmarkKeyword) {
           <tr class="border-b hover:bg-gray-50">
             <td class="px-4 py-2 font-bold">${highlightKeywords(data.name, locationKeyword)}</td>
             <td class="px-4 py-2">${highlightKeywords(data.type, typeKeyword)}</td>
-            <td class="px-4 py-2">${highlightKeywords(data.location, locationKeyword)}</td>
+            <td class="px-4 py-2">
+              ${highlightKeywords(data.location, locationKeyword)}<br>
+              <a href="${data.map}" target="_blank" class="text-blue-600 underline">${data.map}</a>
+            </td>
             <td class="px-4 py-2">${contract}</td>
             <td class="px-4 py-2">${highlightKeywords(data.landmark || "", landmarkKeyword)}</td>
           </tr>
