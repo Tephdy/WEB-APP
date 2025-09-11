@@ -10,7 +10,7 @@ const properties = {
       "6,888 PER MONTH MONTHL CONTRACT 1 MONTH ADVANCE.",
     ],
     landmark:`Boundary of Pasig and Cainta. Walking distance to Ortigas Extension & Robinson's (Big R) Cainta Junction. Near the business district of Ortigas, Makati, Eastwood and Cubao.<br>
-    https://maps.app.goo.gl/ZtoYCfw6VS1Q2Tiy7`,
+    Google Map: https://maps.app.goo.gl/ZtoYCfw6VS1Q2Tiy7`,
   },
   "ADI 168": {
     name: "ADI 168",
@@ -21,7 +21,7 @@ const properties = {
       "3,999 PER MONTH - 6 MONTH CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
     ],
     landmark: `Walking distance to LRT Marikina-Pasig Station. Near the business district of Cubao, Ortigas, Makati, and Eastwood.<br>
-    https://maps.app.goo.gl/EQkAxPWgDAhyknM79`,
+    Google Map: https://maps.app.goo.gl/EQkAxPWgDAhyknM79`,
   },
   "BED AND BATH": {
     name: "Bed and Bath",
@@ -34,7 +34,7 @@ const properties = {
       "3,100 - MONTHLY CONTRACT",
     ],
     landmark: `One ride to Ortigas, Mandaluyong, Makati, Eastwood, Libis, and BGC. Walking distance to SM East Ortigas, Super 8 Grocery, McDonald's, and major banks. Near: The Medical City, Mission Hospital, UA&P, St. Paul College of Pasig, Ateneo School of Medicine.<br>
-    https://maps.app.goo.gl/hphkFhzp1XebbM849`,
+    Google Map: https://maps.app.goo.gl/hphkFhzp1XebbM849`,
   },
   "DREAM": {
     name: "DREAM",
@@ -56,7 +56,7 @@ const properties = {
       "700 - DAILY"
     ],
     landmark: `Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina.<br>
-    https://maps.app.goo.gl/AP35c9sccbpSmaqU8`,
+    Google Map: https://maps.app.goo.gl/AP35c9sccbpSmaqU8`,
   },
   "PLEASANT": {
     name: "PLEASANT",
@@ -72,7 +72,7 @@ const properties = {
       "6,099 - MONTHLY CONTRACT - 3K UTILITY DEPOSIT"
     ], 
     landmark:`Near LRT Line 2 Marikina-Pasig Station 1 ride to Cubao, Makati, Ortigas, Eastwood, and Manila. Walking distance to Marikina Public Market, Amang Rodriguez Hospital, Blue Wave, Marikina Sports Center, and more.<br>
-    https://maps.app.goo.gl/5D3Ke41BDTLFLHPh9`,
+    Google Map: https://maps.app.goo.gl/5D3Ke41BDTLFLHPh9`,
   },
   "HOMEY": {
     name: "HOMEY",
@@ -86,7 +86,7 @@ const properties = {
       "6,7,8 - 6,000 PER MONTH – 1 YEAR CONTRACT W/ AC PROVISION - 1 MONTH ADVANCE 2 MONTHS DEPOSIT"
     ],
     landmark: `Just minutes away from Cainta Municipal Hall, SM Savemore, Puregold, churches, wet & dry markets. Accessible routes to Ortigas Extension (via Midtown Village–De Castro/Countryside Exit), C6, BGC, Taguig, and Pasig.<br>
-    https://maps.app.goo.gl/VnyT7tHi4QXXRHXj9`,
+    Google Map: https://maps.app.goo.gl/VnyT7tHi4QXXRHXj9`,
   },
   "KALAYAAN 888": {
     name: "KALAYAAN 888",
@@ -96,7 +96,7 @@ const properties = {
       "4,999 PER MONTH - 1 MONTH ADVANCE 2 MONTH DEPOSITS"
     ],
     landmark: `Walking distance to McDonald's, and Jollibee Karangalan Gate 1 Cainta, Rizal. Near the business district of Eastwood, Ortigas, Makati, BGC, and Quezon City.<br>
-    https://maps.app.goo.gl/Af2TLxWQywnufPVf7`,
+    Google Map: https://maps.app.goo.gl/Af2TLxWQywnufPVf7`,
   },
   "PENTHAUZ": {
     name: "PENTHAUZ",
@@ -106,7 +106,7 @@ const properties = {
       "7,999 to 8,500/month"
     ],
     landmark: `Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina.<br>
-    https://maps.app.goo.gl/AP35c9sccbpSmaqU8`,
+    Google Map: https://maps.app.goo.gl/AP35c9sccbpSmaqU8`,
   },
   "GREEN": {
     name: "GREEN",
