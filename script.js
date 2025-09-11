@@ -10,7 +10,7 @@ const properties = {
       "6,888 PER MONTH MONTHL CONTRACT 1 MONTH ADVANCE.",
     ],
     landmark:`Boundary of Pasig and Cainta. Walking distance to Ortigas Extension & Robinson's (Big R) Cainta Junction. Near the business district of Ortigas, Makati, Eastwood and Cubao.<br>
-    Google Map: https://maps.app.goo.gl/ZtoYCfw6VS1Q2Tiy7`,
+    <b>Google Map</b>: https://maps.app.goo.gl/ZtoYCfw6VS1Q2Tiy7`,
   },
   "ADI 168": {
     name: "ADI 168",
