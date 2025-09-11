@@ -19,7 +19,7 @@ const properties = {
       "Trial - 3,999 - 1 MONTH - 1k utility DEPOSIT",
       "3,999 PER MONTH - 6 MONTH CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
     ],
-    landmark: "Walking distance to LRT Marikina-Pasig Station. Near the business district of Cubao, Ortigas, Makati, and Eastwood.",
+    landmark: "Walking distance to LRT Marikina-Pasig Station. Near the business district of Cubao, Ortigas, Makati, and Eastwood. Google Map: https://maps.app.goo.gl/EQkAxPWgDAhyknM79",
   },
   "BED AND BATH": {
     name: "Bed and Bath",
@@ -31,7 +31,7 @@ const properties = {
       "Extended 1 month trial (Lower bed: 2,500, Upper bed: 2,300)",
       "3,100 - MONTHLY CONTRACT",
     ],
-    landmark: "One ride to Ortigas, Mandaluyong, Makati, Eastwood, Libis, and BGC. Walking distance to SM East Ortigas, Super 8 Grocery, McDonald's, and major banks. Near: The Medical City, Mission Hospital, UA\&P, St. Paul College of Pasig, Ateneo School of Medicine",
+    landmark: "One ride to Ortigas, Mandaluyong, Makati, Eastwood, Libis, and BGC. Walking distance to SM East Ortigas, Super 8 Grocery, McDonald's, and major banks. Near: The Medical City, Mission Hospital, UA\&P, St. Paul College of Pasig, Ateneo School of Medicine Google Map: https://maps.app.goo.gl/hphkFhzp1XebbM849",
   },
   "DREAM": {
     name: "DREAM",
@@ -52,7 +52,7 @@ const properties = {
       "Studio unit",
       "700 - DAILY"
     ],
-    landmark: "Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina.",
+    landmark: "Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina. Google Map: https://maps.app.goo.gl/AP35c9sccbpSmaqU8",
 
   },
   "PLEASANT": {
@@ -68,7 +68,7 @@ const properties = {
       "5,599 PER MONTH - 6 MONTHS CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "6,099 - MONTHLY CONTRACT - 3K UTILITY DEPOSIT"
     ], 
-    landmark:"Near LRT Line 2 Marikina-Pasig Station 1 ride to Cubao, Makati, Ortigas, Eastwood, and Manila.Walking distance to Marikina Public Market, Amang Rodriguez Hospital, Blue Wave, Marikina Sports Center, and more."
+    landmark:"Near LRT Line 2 Marikina-Pasig Station 1 ride to Cubao, Makati, Ortigas, Eastwood, and Manila.Walking distance to Marikina Public Market, Amang Rodriguez Hospital, Blue Wave, Marikina Sports Center, and more. Google Map: https://maps.app.goo.gl/5D3Ke41BDTLFLHPh9"
   },
   "HOMEY": {
     name: "HOMEY",
@@ -81,7 +81,7 @@ const properties = {
       "#2 - 6,000 PER MONTH - 1 YEAR CONTRACT - 1 MONTH ADVANCE 2 MONTHS DEPOSIT",
       "6,7,8 - 6,000 PER MONTH – 1 YEAR CONTRACT W/ AC PROVISION - 1 MONTH ADVANCE 2 MONTHS DEPOSIT"
     ],
-    landmark: "Just minutes away from Cainta Municipal Hall, SM Savemore, Puregold, churches, wet & dry markets. Accessible routes to Ortigas Extension (via Midtown Village–De Castro/Countryside Exit), C6, BGC, Taguig, and Pasig. Accessible routes to Ortigas Extension (via Midtown Village–De Castro/Countryside Exit), C6, BGC, Taguig, and Pasig.",
+    landmark: "Just minutes away from Cainta Municipal Hall, SM Savemore, Puregold, churches, wet & dry markets. Accessible routes to Ortigas Extension (via Midtown Village–De Castro/Countryside Exit), C6, BGC, Taguig, and Pasig. Accessible routes to Ortigas Extension (via Midtown Village–De Castro/Countryside Exit), C6, BGC, Taguig, and Pasig. Google Map: https://maps.app.goo.gl/VnyT7tHi4QXXRHXj9",
   },
   "KALAYAAN 888": {
     name: "KALAYAAN 888",
@@ -90,7 +90,8 @@ const properties = {
     contracts: [
       "4,999 PER MONTH - 1 MONTH ADVANCE 2 MONTH DEPOSITS"
     ],
-    landmark: "Walking distance to McDonald's, and Jollibee Karangalan Gate 1 Cainta, Rizal. Near the business district of Eastwood, Ortigas, Makati, BGC, and Quezon City.",
+    landmark: "Walking distance to McDonald's, and Jollibee Karangalan Gate 1 Cainta, Rizal. Near the business district of Eastwood, Ortigas, Makati, BGC, and Quezon City. Google Map: 
+https://maps.app.goo.gl/Af2TLxWQywnufPVf7",
   },
    "PENTHAUZ": {
     name: "PENTHAUZ",
@@ -99,7 +100,7 @@ const properties = {
     contracts: [
       "7,999 to 8,500/month"
     ],
-    landmark: "Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina",
+    landmark: "Walking distance from SM East Ortigas. Near business districts of Ortigas, Makati, BGC, Eastwood, Cubao, and Marikina Google Map: https://maps.app.goo.gl/AP35c9sccbpSmaqU8",
 
   },
   "GREEN": {
