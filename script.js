@@ -153,7 +153,6 @@ function highlightKeywords(text, keyword) {
 }
 
 function search(locationKeyword, typeKeyword, landmarkKeyword) {
-  // Do not display anything if all inputs are empty
   if (!locationKeyword && !typeKeyword && !landmarkKeyword) {
     results.innerHTML = "";
     return;
