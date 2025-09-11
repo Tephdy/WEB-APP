@@ -119,3 +119,96 @@ const properties = {
     landmark: `Walking distance to Ortigas Extension, Robinson's (Big R) Cainta Junction, and the business district of Ortigas, Makati, Eastwood, and Cubao.`,
   }
 };
+
+// Input Elements
+const locationInput = document.getElementById("locationInput");
+const typeInput = document.getElementById("typeInput");
+const landmarkInput = document.getElementById("landmarkInput");
+const results = document.getElementById("results");
+
+let debounceTimer;
+
+function triggerSearch() {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => {
+    search(
+      locationInput.value.trim().toLowerCase(),
+      typeInput.value.trim().toLowerCase(),
+      landmarkInput.value.trim().toLowerCase()
+    );
+  }, 300);
+}
+
+[locationInput, typeInput, landmarkInput].forEach(input => {
+  input.addEventListener("input", triggerSearch);
+  input.addEventListener("keyup", e => {
+    if (e.key === "Enter") triggerSearch();
+  });
+});
+
+function highlightKeywords(text, keyword) {
+  if (!text || !keyword) return text;
+  const regex = new RegExp(`(${keyword})`, "gi");
+  return text.replace(regex, "<strong class='text-lime-600'>$1</strong>");
+}
+
+function search(locationKeyword, typeKeyword, landmarkKeyword) {
+  // Do not display anything if all inputs are empty
+  if (!locationKeyword && !typeKeyword && !landmarkKeyword) {
+    results.innerHTML = "";
+    return;
+  }
+
+  let resultTables = "";
+  let matchFound = false;
+
+  for (const [_, data] of Object.entries(properties)) {
+    const matchesLocation = locationKeyword === "" ||
+      data.location.toLowerCase().includes(locationKeyword);
+
+    const matchesType = typeKeyword === "" ||
+      data.type.toLowerCase().includes(typeKeyword);
+
+    const matchesLandmark = landmarkKeyword === "" ||
+      (data.landmark || "").toLowerCase().includes(landmarkKeyword);
+
+    if (matchesLocation && matchesType && matchesLandmark) {
+      matchFound = true;
+
+      const table = document.createElement("table");
+      table.className =
+        "min-w-full bg-white text-sm text-left text-gray-600 shadow rounded overflow-hidden mb-8";
+
+      const thead = `
+        <thead class="bg-lime-500 text-white">
+          <tr>
+            <th class="px-4 py-3 text-center">Property</th>
+            <th class="px-4 py-3 text-center">Type</th>
+            <th class="px-4 py-3 text-center">Location</th>
+            <th class="px-4 py-3 text-center">Details</th>
+            <th class="px-4 py-3 text-center">Landmark</th>
+          </tr>
+        </thead>
+      `;
+
+      const tbody = data.contracts
+        .map(contract => `
+          <tr class="border-b hover:bg-gray-50">
+            <td class="px-4 py-2 font-bold">${highlightKeywords(data.name, locationKeyword)}</td>
+            <td class="px-4 py-2">${highlightKeywords(data.type, typeKeyword)}</td>
+            <td class="px-4 py-2">${highlightKeywords(data.location, locationKeyword)}</td>
+            <td class="px-4 py-2">${contract}</td>
+            <td class="px-4 py-2">${highlightKeywords(data.landmark || "", landmarkKeyword)}</td>
+          </tr>
+        `)
+        .join("");
+
+      table.innerHTML = thead + `<tbody>${tbody}</tbody>`;
+      resultTables += table.outerHTML;
+    }
+  }
+
+  results.innerHTML = matchFound
+    ? resultTables
+    : '<div class="text-center text-gray-500 mt-4">No matching properties found.</div>';
+}
