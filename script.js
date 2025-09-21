@@ -21,7 +21,7 @@ const properties = {
       "Trial - 3,999 - 1 MONTH - 1k utility DEPOSIT",
       "3,999 PER MONTH - 6 MONTH CONTRACT - 1 MONTH ADVANCE 1 MONTH DEPOSIT"
     ],
-    landmark: "Walking distance to LRT Marikina-Pasig Station. Near Cubao, Ortigas, Makati, and Eastwood.",
+    landmark: "Walking distance to LRT Line 2 Marikina-Pasig Station. Near Cubao, Ortigas, Makati, and Eastwood.",
   },
   "BED AND BATH": {
     name: "Bed and Bath",
