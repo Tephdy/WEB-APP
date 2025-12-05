@@ -127,7 +127,7 @@
       "KALAYAAN 888": {
         name: "KALAYAAN 888",
         type: "Studio unit",
-        location: "Karangalan Gate 1 Kalayaan St. San Isidro Cainta, Rizal",
+        location: "Blk 70 Lot 3 Kalayaan St. Karangalan Village San Isidro Cainta, Rizal.",
         map: "https://maps.app.goo.gl/ngmwryxUg6R3avHR9",
         contracts: [
           "4,999 PER MONTH - 1 MONTH ADVANCE 2 MONTH DEPOSITS"
